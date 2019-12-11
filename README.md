@@ -11,14 +11,16 @@ Contact us on [Discord](https://discordapp.com/invite/jqDHRxD)
 
 ## Environment Variables
 
-| Env Var        | Description                             | Default      |
-|----------------|-----------------------------------------|--------------|
-| SLACK_WEBHOOK  | Slack Webhook URL                       |              |
-| SLACK_CHANNEL  | Slack Channel where Monit send messages | monitoring   |
-| SLACK_USERNAME | Slack Username Monit use                | Monit        |
-| SLACK_PRETEXT  | Slack Pretext Message                   | Dev          |
-| INTERVAL       | Check Interval (in seconds)             | 10           |
-| ADRESSES       | List of address:port separated with `,` | localhost:80 |
+| Env Var        | Description                               | Default      |
+|----------------|-------------------------------------------|--------------|
+| SLACK_WEBHOOK  | Slack Webhook URL                         |              |
+| SLACK_CHANNEL  | Slack Channel where Monit send messages   | monitoring   |
+| SLACK_USERNAME | Slack Username Monit use                  | Monit        |
+| SLACK_PRETEXT  | Slack Pretext Message                     | Dev          |
+| INTERVAL       | Check Interval (in seconds)               | 10           |
+| ADRESSES       | List of address:port separated with `,`   | localhost:80 |
+| PORT           | Port monit listen to for the UI           | 80           |
+| LOGIN          | Login to connect to the UI `username:pwd` | admin:monit  |
 
 # Deploy on KintoHub
 

@@ -9,7 +9,9 @@ ENV SLACK_WEBHOOK= \
     SLACK_USERNAME=Monit \
     SLACK_PRETEXT=Dev \
     INTERVAL=10 \
-    ADRESSES=localhost:80
+    ADRESSES=localhost:80 \
+    PORT=80 \
+    LOGIN=admin:monit
 
 COPY entrypoint.sh /
 COPY slack_notifications*.sh ./
