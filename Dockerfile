@@ -15,4 +15,6 @@ COPY entrypoint.sh /
 COPY slack_notifications*.sh ./
 COPY monitrc /etc/monitrc
 
+RUN chmod 0700 /etc/monitrc
+
 ENTRYPOINT [ "/entrypoint.sh" ]
